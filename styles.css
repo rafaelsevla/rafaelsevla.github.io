@@ -2,3 +2,50 @@ body {
   height: 300px;
   background-image: url(background.gif);
 }
+
+.fa {
+  color: #800080;
+}
+
+h2 {
+  color: #800080;
+}
+
+article {
+  margin-top: 10%;
+  padding-bottom: 3%;
+  border-style: ridge;
+  border-color: #800080;
+  color: #800080;
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  border-width: 2.7px;
+  border-style: dashed;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20%;
+}
+
+@media screen and (max-device-width: 840px) {
+  h3 {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  .container-fluid {
+    margin-top: 20%;
+    width: 95%;
+    font-size: 40px;
+  }
+}
