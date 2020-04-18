@@ -44,6 +44,11 @@ li {
   list-style-type: none;
 }
 
+marquee {
+  justify-content: center;
+  display: flex;
+}
+
 @media screen and (max-device-width: 840px) {
   h2 {
     font-size: 60px;
