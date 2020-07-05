@@ -4,8 +4,45 @@ body {
   overflow: hidden;
 }
 
-.fa {
-  color: #800080;
+.fa-linkedin {
+  color: #2867B2;
+}
+
+.fa-github-alt {
+  color: #24292E;
+}
+
+.fa-telegram {
+  color: #0088cc;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-meetup {
+  color: #F63F60;
+}
+
+.fa-spotify {
+  color: 	#1DB954;
+}
+
+.fa-pinterest {
+  color: #E60E23;
+}
+
+.fa-envelope-o {
+  color: #DB483B;
+}
+
+.fa-instagram {
+  color: #B832A4;
+}
+
+.devto {
+  height: 2em;
+  width: 2em;
 }
 
 h2 {
@@ -33,6 +70,10 @@ article {
   margin-left: auto;
   margin-right: auto;
   margin-top: -20%;
+}
+
+nav {
+  margin-top: 15px;
 }
 
 ul {
